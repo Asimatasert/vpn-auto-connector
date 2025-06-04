@@ -74,7 +74,7 @@ Create `/root/vpn.json` file:
 | `VPN_SERVER` | VPN server address | `"vpn.example.com"` |
 | `VPN_USER` | Username for authentication | `"john.doe"` |
 | `VPN_PASSWORD` | Password for authentication | `"mypassword"` |
-| `VPN_PROTOCOL` | Connection protocol | `"fortinet" or "any openconnect supports protocol"` |
+| `VPN_PROTOCOL` | Connection protocol | `"AnyConnect (Cisco)" or "Pulse Secure" or "Other OpenConnect-compatible protocols"` |
 | `SERVER_CERT_PIN` | Server certificate pin | `"sha256:..."` |
 | `TOTP` | TOTP requirement flag | `"true"` or `"false"` |
 | `FORWARD` | Port forwarding rules array | Array of forwarding objects |
